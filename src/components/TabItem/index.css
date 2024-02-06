@@ -1,0 +1,25 @@
+.tab-item {
+  font-display: 'Roboto';
+  font-size: 20px;
+  border-bottom: 1px solid #7b7894;
+}
+
+.tab-button {
+  background-color: transparent;
+  color: #7b7894;
+  border-width: 0px;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-button {
+    font-size: 26px;
+    margin-right: 32px;
+  }
+}
+
+.active-tab {
+  border-bottom: 2px solid #2563eb;
+  color: #2563eb;
+}
